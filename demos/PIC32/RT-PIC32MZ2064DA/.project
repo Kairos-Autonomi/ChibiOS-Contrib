@@ -27,7 +27,7 @@
 		<link>
 			<name>board</name>
 			<type>2</type>
-			<locationURI>CHIBIOS/os/hal/boards/ST_NUCLEO144_F767ZI</locationURI>
+			<locationURI>CHIBIOS_CONTRIB/os/hal/boards/PIC32MZ_DA_FAMILY_STARTER_KIT</locationURI>
 		</link>
 		<link>
 			<name>os</name>
@@ -40,4 +40,10 @@
 			<locationURI>CHIBIOS/test</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>CHIBIOS_CONTRIB</name>
+			<value>$%7BPARENT-1-CHIBIOS%7D/ChibiOS-Contrib</value>
+		</variable>
+	</variableList>
 </projectDescription>
